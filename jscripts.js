@@ -1,0 +1,275 @@
+function choice(){
+var t=document.getElementById('district').value;
+if(t=='tn'){
+document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='block';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='kl'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='block';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='al'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='block';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='pt'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='block';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='kt'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='block';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='id'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='block';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='ek'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='block';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='th'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='block';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='pl'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='block';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='ml'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='block';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='ko'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='block';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='wa'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='block';
+document.getElementById('forka').style.display='none';
+}
+else if(t=='ka'){
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='block';
+}
+else if(t=='ks'){
+	document.getElementById('forks').style.display='block';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+else{
+	document.getElementById('forks').style.display='none';
+	document.getElementById('forTn').style.display='none';
+	document.getElementById('forkl').style.display='none';
+	document.getElementById('foral').style.display='none';
+document.getElementById('forpt').style.display='none';
+document.getElementById('forkt').style.display='none';
+document.getElementById('forid').style.display='none';
+document.getElementById('forek').style.display='none';
+document.getElementById('forth').style.display='none';
+document.getElementById('forpl').style.display='none';
+document.getElementById('forml').style.display='none';
+document.getElementById('forko').style.display='none';
+document.getElementById('forwa').style.display='none';
+document.getElementById('forka').style.display='none';
+}
+if(t=='tn' || t=='kl' || t=='al' || t=='pt' || t=='kt' || t=='id' || t=='ek' || t=='th' || t=='pl' || t=='ml'  || t=='ko' || t=='wa' || t=='ka' || t=='ks')
+{
+document.getElementById('sel').style.display='block';
+}
+else{
+document.getElementById('sel').style.display='none';
+}
+}
+
+function opt(){
+var t=document.getElementById('op').value;
+if(t=='fo'){
+document.getElementById('foods').style.display='block';
+	document.getElementById('res').style.display='none';
+	document.getElementById('oth').style.display='none';
+	}
+	else if(t=="rest"){
+		document.getElementById('foods').style.display='none';
+	document.getElementById('res').style.display='block';
+	document.getElementById('oth').style.display='none';
+	}
+	else if(t=="other"){
+		document.getElementById('foods').style.display='nonoe';
+	document.getElementById('res').style.display='none';
+	document.getElementById('oth').style.display='block';
+		}
+		else{
+			document.getElementById('foods').style.display='none';
+	document.getElementById('res').style.display='none';
+	document.getElementById('oth').style.display='none';
+	
+			}
+	}
